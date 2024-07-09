@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    background-color: lightblue;
+}
+.btn{
+    padding: 6px;
+    margin-top: 5px;
+    width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+    background: lightseagreen;
+    font-weight: 600;
+    cursor: pointer;
+}
+.card{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 8% 10%;
+    border-radius: 3px;
+    align-items: center;
+    /* justify-content: center; */
+}

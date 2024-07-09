@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="welcome1.css">
+    <link rel="shortcut icon" href="./images/first.png" type="image/x-icon">
+    <title>Welcome to your dashboard | FirstBank</title>
+</head>
+<body>
+    <div class="container">
+        <div class="banking-items">
+            <h2>Welcome to my <span>FirstBank</span></h2>
+        </div>
+    </div>
+    <section class="container items">
+        <div class="deposit">
+            <h2>Deopsit</h2>
+            <h1>$<span id="deposit-text">0.00</span></h1>
+        </div>
+        <div class="withdraw">
+            <h2>Withdraw</h2>
+            <h1>$<span id="withdraw-text">0.00</span></h1>
+        </div>
+        <div class="balance">
+            <h2>Balance</h2>
+            <h1>$<span id="balance-text">1000.00</span></h1>
+        </div>
+    </section>
+    <section class="container item2">
+            <div class="amount">
+                <h2>Deposit Amount</h2>
+                <input id="deposit-input" type="number" placeholder="$ Enter amount">
+                <button id="deposit-btn">Deposit</button>
+            </div>
+            <div class="amount withdraw-amount">
+                <h2>Withdraw Amount</h2>
+                <input id="withdraw-input" type="number" placeholder="$ Enter amount">
+                <button id="withdraw-btn">Withdraw</button>
+            </div>
+    </section>
+
+    <script src="welcome1.js"></script>
+</body>
+</html>
